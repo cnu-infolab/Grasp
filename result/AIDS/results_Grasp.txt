@@ -1,0 +1,24 @@
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+Grasp	AIDS	train	20	1093.837166070938	866.514
+```
+
+## Testing
+```
+model_name	dataset	graph_set	#testing_pairs	time_usage(s/pair)	mse	mae	acc	fea	rho	tau	pk10	pk20
+Grasp	AIDS	test	14000	0.268	1.441	0.514	0.528	0.74	0.929	0.824	0.812	0.864
+```
+
+## Post-processing
+```
+model_name	dataset	graph_set	#testing_pairs	time_usage(s/100p)	mae	acc	fea	rho	tau	pk10	pk20	precision	recall	f1
+Grasp	AIDS	test	12997	25.274	1.112	0.536	1.0	0.844	0.751	0.914	0.892	0.715	0.768	0.737
+```
+
+## Post-processing
+```
+model_name	dataset	graph_set	#testing_pairs	time_usage(s/100p)	mae	acc	fea	rho	tau	pk10	pk20	precision	recall	f1
+Grasp	AIDS	test	12997	25.305	0.983	0.558	1.0	0.853	0.763	0.925	0.898	0.721	0.768	0.741
+```
+
